@@ -150,9 +150,11 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/bilibili.png
     type: select
     proxies:
-      - 全球直连
+      - DIRECT
       - 台湾节点
       - 香港节点
+      - 狮城节点
+      - 日本节点
   - name: 国外媒体
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png
     type: select
