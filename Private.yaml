@@ -559,7 +559,6 @@ rule-providers:
     type: http
 
 rules:
-  - "DOMAIN-SUFFIX,dragonisheep.com,DIRECT"
   - "RULE-SET,xbox,XBOX"
   - "RULE-SET,LocalAreaNetwork,全球直连"
   - "RULE-SET,UnBan,全球直连"
