@@ -36,6 +36,47 @@ proxy-groups:
     include-all: true
     interval: 300
     tolerance: 50
+  - name: 油管视频
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 狮城节点
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 美国节点
+      - 韩国节点
+      - 手动切换
+      - DIRECT
+  - name: GoogleAI
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AI.png
+    type: select
+    proxies:
+      - 节点选择
+      - 自动选择
+      - 狮城节点
+      - 台湾节点
+      - 日本节点
+      - 美国节点
+      - 韩国节点
+      - 香港节点
+      - 手动切换
+      - DIRECT
+  - name: 谷歌服务
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png
+    type: select
+    proxies:
+      - 节点选择
+      - DIRECT
+      - 美国节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+      - 手动切换
   - name: Claude
     icon: https://raw.githubusercontent.com/dragonisheep/ClashParty/refs/heads/master/PNG/Claude.png
     type: select
@@ -104,34 +145,6 @@ proxy-groups:
       - 香港节点
       - 手动切换
       - DIRECT
-  - name: GoogleAI
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AI.png
-    type: select
-    proxies:
-      - 节点选择
-      - 自动选择
-      - 狮城节点
-      - 台湾节点
-      - 日本节点
-      - 美国节点
-      - 韩国节点
-      - 香港节点
-      - 手动切换
-      - DIRECT
-  - name: 油管视频
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
-    type: select
-    proxies:
-      - 节点选择
-      - 自动选择
-      - 狮城节点
-      - 香港节点
-      - 台湾节点
-      - 日本节点
-      - 美国节点
-      - 韩国节点
-      - 手动切换
-      - DIRECT
   - name: 奈飞视频
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
     type: select
@@ -184,19 +197,6 @@ proxy-groups:
     type: select
     proxies:
       - Rotate
-      - 节点选择
-      - DIRECT
-      - 美国节点
-      - 香港节点
-      - 台湾节点
-      - 狮城节点
-      - 日本节点
-      - 韩国节点
-      - 手动切换
-  - name: 谷歌服务
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png
-    type: select
-    proxies:
       - 节点选择
       - DIRECT
       - 美国节点
@@ -313,17 +313,17 @@ proxy-groups:
       - 节点选择
       - 手动切换
       - 自动选择
+      - 油管视频
+      - GoogleAI
+      - 谷歌服务
       - 电报消息
       - OpenAi
-      - GoogleAI
       - Claude
-      - 油管视频
       - 奈飞视频
       - 哔哩哔哩
       - 国外媒体
       - 国内媒体
       - 微软服务
-      - 谷歌服务
       - Github
       - 苹果服务
       - 游戏平台
