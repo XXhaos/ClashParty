@@ -104,7 +104,7 @@ proxy-groups:
       - 香港节点
       - 手动切换
       - DIRECT
-  - name: Gemini
+  - name: GoogleAI
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AI.png
     type: select
     proxies:
@@ -315,7 +315,7 @@ proxy-groups:
       - 自动选择
       - 电报消息
       - OpenAi
-      - Gemini
+      - GoogleAI
       - Claude
       - 油管视频
       - 奈飞视频
@@ -389,12 +389,12 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-  Gemini:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Gemini.list
-    path: ./ruleset/Gemini.list
+  GoogleAI:
+    url: https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/refs/heads/main/rules/clash/google-ai.yaml
+    path: ./ruleset/google-ai.yaml
     behavior: classical
     interval: 86400
-    format: text
+    format: yaml
     type: http
   ClaudeAI:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/ClaudeAI.list
@@ -565,8 +565,9 @@ rules:
   - "RULE-SET,BanAD,广告拦截"
   - "RULE-SET,BanProgramAD,应用净化"
   - "RULE-SET,GoogleCN,全球直连"
+  - "RULE-SET,YouTube,油管视频"
+  - "RULE-SET,GoogleAI,GoogleAI"
   - "RULE-SET,Google,谷歌服务"
-  - "RULE-SET,Gemini,Gemini"
   - "RULE-SET,ClaudeAI,Claude"
   - "RULE-SET,Github,Github"
   - "RULE-SET,SteamCN,全球直连"
@@ -580,7 +581,6 @@ rules:
   - "RULE-SET,Sony,游戏平台"
   - "RULE-SET,Steam,游戏平台"
   - "RULE-SET,Nintendo,游戏平台"
-  - "RULE-SET,YouTube,油管视频"
   - "RULE-SET,Netflix,奈飞视频"
   - "RULE-SET,BilibiliHMT,哔哩哔哩"
   - "RULE-SET,Bilibili,哔哩哔哩"
