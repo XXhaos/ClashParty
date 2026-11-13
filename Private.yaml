@@ -566,6 +566,7 @@ rules:
   - "RULE-SET,BanProgramAD,应用净化"
   - "RULE-SET,GoogleCN,全球直连"
   - "RULE-SET,YouTube,油管视频"
+  - "DOMAIN-KEYWORD,antigravity,GoogleAI"
   - "RULE-SET,GoogleAI,GoogleAI"
   - "RULE-SET,Google,谷歌服务"
   - "RULE-SET,ClaudeAI,Claude"
